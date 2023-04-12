@@ -29,7 +29,7 @@ import {
 
 export const Home = (): JSX.Element => {
   const gihubUrl = `https://github.com/${userData.githubUser}`;
-  const portfolioUrl = `https://github.com/${userData.githubUser}/my-portfolio`;
+  const portfolioUrl = "https://github.com/gabrielogawa/portfolio"
 
   return (
     <main id="home">
@@ -46,20 +46,9 @@ export const Home = (): JSX.Element => {
               />
               <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
             </Flex>
-            <Text as="h1" type="heading1" color="grey5">
-            I{" "}
-              <Text as="span" type="heading1" color="brand1">
-                love
-              </Text>{" "}
-              creating and{" "}
-              <Text as="span" type="heading1" color="brand1">
-                developing
-              </Text>{" "}
-              projects
-            </Text>
+            <Text as="h1" type="heading1" color="grey5">About me</Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+            I've always loved technology and wanted to work with it, but until recently it was just a dream. Today I'm studying every day and this dream is now called a goal and after 1000 hours in the Kenzie Academy Brasil course I can finally introduce myself as a Developer.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
